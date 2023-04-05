@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Dependency Extractor",
+  "version": "1.0",
+  "description": "Extracts library names from package.json files on GitHub",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}
+

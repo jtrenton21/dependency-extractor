@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>Dependency Extractor</h1>
+    <button id="extract">Extract Dependencies</button>
+    
+    <div class="wrap" id="prod-dep">
+      <p>Dependencies</p>
+      <pre class="deps" id="output"></pre>
+      <button id="copy">Copy to Clipboard</button>
+    </div>
+    <div class="wrap" id="dev-dep">
+      <p>Dev Dependencies</p>
+      <pre class="deps" id="devoutput"></pre>
+      <button id="copydev">Copy to Clipboard</button>
+    </div>
+    <p id="copy-msg">Dependency list copied to clipboard </p>
+    <script src="popup.js"></script>
+  </body>
+</html>
